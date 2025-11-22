@@ -7,7 +7,7 @@ A simple Python Flask API that retrieves product inventory from **Azure SQL Data
 # 📁 **Project Structure**
 
 ```
-inventory-app/
+flask-azure-sql-inventory-app/
 ├── app.py
 ├── config.py
 ├── requirements.txt
