@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 DB_SERVER = os.getenv("DB_SERVER", "sqlsrv-demo.database.windows.net")
 DB_NAME = os.getenv("DB_NAME", "sqldb-demo")
